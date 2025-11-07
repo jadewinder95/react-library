@@ -9,6 +9,9 @@ const Highlights = () => {
                         why choose <span className='purple'>Library</span>
                     </h2>
                     <div className="highlight__wrapper">
+
+                        <Highlight />
+
                         <div className="highlight">
                             <div className="highlight__img">
                                 <FontAwesomeIcon icon='bolt' />
