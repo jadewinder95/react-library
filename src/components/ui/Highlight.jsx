@@ -1,21 +1,17 @@
-import React from "react";  
+import React from 'react';
 
-const Highlights =() => {
-    return (
-        <div>
-            <div className="highlight">
-                            <div className="highlight__img">
-                                <FontAwesomeIcon icon='bolt' />
-                            </div>
-                            <h3 className='highlight__subtitle'>Easy and Quick</h3>
-                            <p className='highlight__para'>
-                                Access a vast collection of books and 
-                                resources with just a few clicks.
-                            </p>
-                        </div>
-
+const Highlight = ({ icon, title, para }) => {
+  return (
+    <div className="highlight">
+      <div className="highlight__img">
+        {icon}
         </div>
-    );  
-}
+      <h3 className="highlight__subtitle">{title}</h3>
+      <p className="highlight__para">
+        {para}
+        </p>
+    </div>
+  );
+};
 
-export default Highlights;
+export default Highlight;
