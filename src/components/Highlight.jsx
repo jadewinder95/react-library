@@ -1,11 +1,11 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Highlight from './Highlight';
+import Highlight from './ui/Highlight';
 import { faBolt, faBookOpen, faTags } from '@fortawesome/free-solid-svg-icons';
 
 const Highlights = () => {
   return (
-    <section id="highlight">
+    <section id="highlights">
       <div className="container">
         <div className="row">
           <h2 className="section__title">

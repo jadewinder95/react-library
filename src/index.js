@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {library} from '@fortawesome/fontawesome-svg-core'
-import {faBars, faShoppingCart, faTimes, faBolt, faBookOpen, faTags, faStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faBars, faShoppingCart, faTimes, faStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faBars, faShoppingCart, faTimes)
+library.add(faBars, faShoppingCart, faTimes, faStar, faStarHalfAlt);
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,12 +1,9 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from 'react';
 import Book from './ui/book';
 import { books } from '../data';
 const Features = () => {
-    console.log(books)
-    console.log(books.filter(book => book.rating === 5).slice(0, 4))
     return (
-        <section>
+        <section id="features">
             <div className="container">
                 <div className="row">
                     <h2 className="section__title">
